@@ -1,13 +1,15 @@
-
+/* :root {
+    var(--color)
+} */
 
 body {
     background-color: blueviolet;
 }
-div {
-    background-color: aquamarine;
-}
+
+/* ---------- sign in page styles ---------- */
 
 .signin-container {
+    background-color: #DA292A;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -17,9 +19,12 @@ div {
     background-color: hsl(0, 0%, 100%);
     margin: 5px;
     height: 30px;
+    border: none;
 }
 .signin-container p {
     text-align: center;
+    color: white;
+    font-weight: 600;
 }
 #signin-btn {
     background-color: rgb(118, 255, 106);
@@ -29,6 +34,11 @@ div {
 }
 
 .signin-logo {
-    height: 200px;
-    width: 200px;
+    height:300px;
+    width: 300px;
 }
+
+
+
+
+/* ---------- profile creation page styles ---------- */
