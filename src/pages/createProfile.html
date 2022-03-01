@@ -4,13 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/styles.css">
     <script defer src="/index.js"></script>
     <title>SquadLink</title>
 </head>
 <body>
-<p>this is profile creation page </p>
     <!-- simple demo of the creation process - that renders stats to the profile page - once creation is complete then redirect them to their profile page -->
-    
+    <!-- store selections in an object & display them in the profile page -->
+    <h2 class="text-center">Create your player profile</h2>
+
+    <div class="container create-profile-container">
+
+        <!-- SELECT RANK -->
+        <div class="select-rank text-center">
+            <p>What is your current Rank?</p>
+            <div class="rank-selections d-flex flex-wrap justify-content-center">
+                <input type="button" value="Bronze">
+                <input type="button" value="Silver">
+                <input type="button" value="Gold">
+                <input type="button" value="Platinum">
+                <input type="button" value="Diamond">
+                <input type="button" value="Masters">
+            </div>
+        </div>
+
+         <!-- SELECT MAIN LEGEND -->
+         <div class="select-rank text-center">
+            <p>Select your Main Legend</p>
+            <div class="rank-selections d-flex flex-wrap justify-content-center">
+                <input type="button" value="Octane">
+                <input type="button" value="Horizon">
+                <input type="button" value="Lifeline">
+                <input type="button" value="Wraith">
+                <input type="button" value="Crypto">
+                <input type="button" value="Gibraltar">
+            </div>
+        </div>
+
+        <!-- SELECT PLAYSTYLE -->
+        <div class="select-rank text-center">
+            <p>Describe your Playstyle?</p>
+            <div class="rank-selections d-flex flex-wrap justify-content-center">
+                <input type="button" value="Defensive">
+                <input type="button" value="Passive">
+                <input type="button" value="Agressive">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="continue-to-profile">
+        <button>Continue</button>
+    </div>
+
+   
 </body>
 </html>
