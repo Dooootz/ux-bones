@@ -13,14 +13,28 @@
 <body>
     <!-- simple demo of the creation process - that renders stats to the profile page - once creation is complete then redirect them to their profile page -->
     <!-- store selections in an object & display them in the profile page -->
-    <h2 class="text-center">Create your player profile</h2>
+    <h2 class="text-center py-5">Create your player profile</h2>
 
-    <div class="container create-profile-container">
+    <div class="container create-profile-container py-5">
+        
+        <!-- user details form -->
+        <div class="user-details">
+            <p class="text-center">Player Details</p>
+            <div class="input-details mb-5 d-flex flex-column justify-content-center align-items-center">
+                <input class="my-1" type="text" placeholder="Firstname">
+                <input class="my-1" type="text" placeholder="Lastname">
+                <input class="my-1" type="text" placeholder="Email">
+                <input class="my-1" type="text" placeholder="Password">
+                <input class="my-1" type="text" placeholder="Steam ID">
+            </div>
+
+    
+        </div>
 
         <!-- SELECT RANK -->
         <div class="select-rank text-center">
-            <p>What is your current Rank?</p>
-            <div class="rank-selections d-flex flex-wrap justify-content-center">
+            <p class="py-2">What is your current Rank?</p>
+            <div class="rank-selections pb-5 d-flex flex-wrap justify-content-center">
                 <input type="button" value="Bronze">
                 <input type="button" value="Silver">
                 <input type="button" value="Gold">
@@ -33,7 +47,7 @@
          <!-- SELECT MAIN LEGEND -->
          <div class="select-rank text-center">
             <p>Select your Main Legend</p>
-            <div class="rank-selections d-flex flex-wrap justify-content-center">
+            <div class="rank-selections pb-5 d-flex flex-wrap justify-content-center">
                 <input type="button" value="Octane">
                 <input type="button" value="Horizon">
                 <input type="button" value="Lifeline">

@@ -47,10 +47,17 @@ body {
 .create-profile-container {
     background-color: #DA292A;
 }
+.input-details > input {
+    width: 320px;
+    height: 50px;
+}
 .rank-selections input {
     height: 50px;
     width:100px;
     margin: 5px;
+}
+.rank-selections>input:focus {
+    background-color: beige;
 }
 .select-rank {
     margin-bottom: 20px;
