@@ -17,19 +17,7 @@
     /* component theme */
     --top-nav: #1D1D27;
 
-
-
-
-    /* CSS HSL */
-    /* --black: hsla(0, 0%, 0%, 1);
-    --permanent-geranium-lake: hsla(360, 71%, 51%, 1);
-    --cyber-yellow: hsla(50, 100%, 50%, 1);
-    --caribbean-green: hsla(164, 95%, 43%, 1);
-    --cultured: hsla(0, 0%, 95%, 1); */
-
 }
-
-
 
 body {
     background-color: blueviolet;
@@ -40,16 +28,16 @@ body {
 
 .signin-container {
     background-color: var(--apex-red);
-    display: flex;
-    flex-direction: column;
     padding: 30px;
     height: 100vh;
 }
 .signin-container input {
     background-color: hsl(0, 0%, 100%);
     margin: 5px;
-    height: 30px;
+    height: 50px;
+    width: 300px;
     border: none;
+    border-radius: 30px;
 }
 .signin-container p {
     text-align: center;
@@ -57,10 +45,14 @@ body {
     font-weight: 600;
 }
 #signin-btn {
-    background-color: var(--caribbean-green)
+    background-color: var(--black);
+    color: white;
 }
 #register-btn {
-    background-color: var(--cyber-yellow)
+    background-color: var(--caribbean-green);
+    color: white;
+    font-weight: 500;
+    text-shadow: 1px 1px#1D1D27;
 }
 .signin-logo {
     height:300px;
