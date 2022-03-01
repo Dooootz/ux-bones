@@ -70,15 +70,20 @@ body {
 .top-nav {
     background-color: rgb(148, 148, 148);
     height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
-
 .top-nav > .bi {
     font-size: 2rem;
 }
 
 
 .profile-content {
-    background-color: aqua;
+    background-color: #DA292A;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 80px;
 }
 .profile-img > img {
     height: 150px;
@@ -90,5 +95,13 @@ body {
 
 
 .bottom-nav {
-    background-color: brown;
+    background-color: rgb(42, 165, 138);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.bottom-nav-links {
+    font-size: 2rem;
 }
