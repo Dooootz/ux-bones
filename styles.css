@@ -10,17 +10,25 @@ div {
 .signin-container {
     display: flex;
     flex-direction: column;
-
     padding: 30px;
+    height: 100vh;
 }
 .signin-container input {
-    background-color: aqua;
+    background-color: hsl(0, 0%, 100%);
     margin: 5px;
     height: 30px;
 }
-
+.signin-container p {
+    text-align: center;
+}
+#signin-btn {
+    background-color: rgb(118, 255, 106);
+}
+#register-btn {
+    background-color: rgb(109, 226, 255);
+}
 
 .signin-logo {
-    height: 100%;
+    height: 200px;
     width: 200px;
 }
