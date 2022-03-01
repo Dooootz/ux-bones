@@ -1,1 +1,1 @@
-alert('yoza')
+// alert('yoza')

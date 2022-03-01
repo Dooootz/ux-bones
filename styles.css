@@ -1,7 +1,26 @@
+
+
+body {
+    background-color: blueviolet;
+}
 div {
     background-color: aquamarine;
 }
 
-body {
-    background-color: blueviolet;
+.signin-container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px;
+}
+.signin-container input {
+    background-color: aqua;
+    margin: 5px;
+    height: 30px;
+}
+
+
+.signin-logo {
+    height: 100%;
+    width: 200px;
 }
