@@ -8,10 +8,12 @@ rough draft complete
 
 ##TODO
 >can store color palette in variables and create app themes - add dark mode
->add top nav hamburger menu - bootstrap template
+>add top nav hamburger menu - bootstrap template ?? 
+
 
 #PAGES TODO
     >notifications page 
+    >friends list page
     >chat page
     >search page (similar to profile creation page)
     >profile settings page - edit personal settings 
