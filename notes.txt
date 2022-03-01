@@ -1,1 +1,22 @@
-we will start with this basic setup - get the basic structure down - dont go tooo overboard with the styles & HAVe fun 
+#Status Update
+
+Sign in page 
+&
+Profile creation & profile page
+rough draft complete
+---
+
+##TODO
+>can store color palette in variables and create app themes - add dark mode
+>add top nav hamburger menu - bootstrap template
+
+#PAGES TODO
+    >notifications page 
+    >chat page
+    >search page (similar to profile creation page)
+    >profile settings page - edit personal settings 
+
+use the momentum from today to finish off the basic draft of our prototype 
+get basic styling, theme sorted before we jump into any logic 
+
+logic should be relatively basic - mock a dummy db & update it to a page using js 
