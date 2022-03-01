@@ -6,6 +6,7 @@
     --grey: #adaaaa;
     --grey-shade: #b0b0b0;
     --light-grey: #f3f3f3;
+    --white: white;
 
     /* main palette */
     --apex-red: #DA292A;
@@ -16,12 +17,13 @@
 
     /* component theme */
     --top-nav: rgb(29, 29, 39);
+    --input-bg: rgba(29, 29, 39, 0.5);
 
 }
 
 body {
-    background-color: blueviolet;
-    color: white;
+    background-color: var(--apex-red);
+    color: var(--white);
 }
 
 /* ---------- sign in page styles ---------- */
@@ -32,7 +34,7 @@ body {
     height: 100vh;
 }
 .signin-container input {
-    background-color: rgba(29, 29, 39, 0.5);
+    background-color: var(--input-bg);
     margin: 5px;
     height: 50px;
     width: 300px;
@@ -40,20 +42,20 @@ body {
     border-radius: 30px;
 }
 .signin-container input::placeholder {
-    color: white;
+    color: var(--white);
 }
 .signin-container p {
     text-align: center;
-    color: white;
+    color: var(--white);
     font-weight: 600;
 }
 #signin-btn {
     background-color: var(--black);
-    color: white;
+    color: var(--white);
 }
 #register-btn {
     background-color: var(--caribbean-green);
-    color: white;
+    color: var(--white);
     font-weight: 500;
     text-shadow: 1px 1px#1D1D27;
 }
@@ -70,14 +72,28 @@ body {
     background-color: var(--apex-red);
 }
 .input-details > input {
-    width: 320px;
+    background-color: var(--input-bg);
+    color: var(--white);
+    text-align: center;
     height: 50px;
+    width: 320px;
+    border: none;
+    border-radius: 30px;
 }
 .rank-selections input {
+    background-color: var(--input-bg);
+    color: var(--white);
     height: 50px;
     width:100px;
     margin: 5px;
+    border: none;
+    border-radius: 30px;
 }
+
+.input-details input::placeholder {
+    color: var(--light-grey);
+}
+
 .rank-selections>input:focus {
     background-color: var(--cultured);
 }
@@ -89,8 +105,12 @@ body {
 }
 .continue-to-profile>button {
     background-color: var(--caribbean-green);
-    width: 300px;
+    color: var(--white);
+    font-weight: 600;
+    width: 320px;
     height: 50px;
+    border: none;
+    border-radius: 30px;
 }
 
 
@@ -109,7 +129,7 @@ body {
 
 
 .profile-content {
-    background-color: var(--black);
+    background-color: var(--input-bg);
     height: 100%;
     padding-top: 70px;
     padding-bottom: 80px;

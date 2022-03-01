@@ -13,9 +13,14 @@
 <body>
     <!-- simple demo of the creation process - that renders stats to the profile page - once creation is complete then redirect them to their profile page -->
     <!-- store selections in an object & display them in the profile page -->
-    <h2 class="text-center py-5">Create your player profile</h2>
-
+   
     <div class="container create-profile-container py-5">
+
+        <div class="create-profile-heading d-flex flex-column text-center pb-5">
+            <h2 class="text-center">Welcome to SquadLink</h2>
+            <h5>Create your player profile</h5>
+        </div>
+
         
         <!-- user details form -->
         <div class="user-details">
@@ -27,8 +32,16 @@
                 <input class="my-1" type="text" placeholder="Password">
                 <input class="my-1" type="text" placeholder="Steam ID">
             </div>
+        </div>
 
-    
+        <!-- SELECT PLAYSTYLE -->
+        <div class="select-rank text-center">
+            <p>Describe your Playstyle?</p>
+            <div class="rank-selections d-flex flex-wrap justify-content-center">
+                <input type="button" value="Defensive">
+                <input type="button" value="Passive">
+                <input type="button" value="Agressive">
+            </div>
         </div>
 
         <!-- SELECT RANK -->
@@ -47,30 +60,24 @@
          <!-- SELECT MAIN LEGEND -->
          <div class="select-rank text-center">
             <p>Select your Main Legend</p>
-            <div class="rank-selections pb-5 d-flex flex-wrap justify-content-center">
+            <div class="rank-selections d-flex flex-wrap justify-content-center">
                 <input type="button" value="Octane">
                 <input type="button" value="Horizon">
                 <input type="button" value="Lifeline">
                 <input type="button" value="Wraith">
                 <input type="button" value="Crypto">
                 <input type="button" value="Gibraltar">
+                <input type="button" value="Wraith">
+                <input type="button" value="Crypto">
+                <input type="button" value="Gibraltar">
             </div>
         </div>
 
-        <!-- SELECT PLAYSTYLE -->
-        <div class="select-rank text-center">
-            <p>Describe your Playstyle?</p>
-            <div class="rank-selections d-flex flex-wrap justify-content-center">
-                <input type="button" value="Defensive">
-                <input type="button" value="Passive">
-                <input type="button" value="Agressive">
-            </div>
-        </div>
 
     </div>
 
-    <div class="continue-to-profile">
-        <button onclick="profilePage()">Continue</button>
+    <div class="continue-to-profile pb-5">
+        <button onclick="profilePage()">CONTINUE</button>
     </div>
 
    
