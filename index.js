@@ -13,4 +13,4 @@ const searchPage = () => window.location.pathname = '/src/pages/search.html'
 
 const friendsPage = () => window.location.pathname = '/src/pages/friends.html'
 
-const userSettingsPage = () => window.location.pathname = '/src/pages/userSettings.html'
+const settings = () => window.location.pathname = '/src/pages/userSettings.html'
