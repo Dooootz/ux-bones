@@ -115,9 +115,7 @@ body {
     border-radius: 30px;
 }
 
-
-/* ---------- profile page styles ---------- */
-
+/* ======== TOP & BOTTOM NAVBARS ==========  */
 .top-nav {
     background-color: var(--top-nav);
     height: 70px;
@@ -128,7 +126,19 @@ body {
 .top-nav > .bi {
     font-size: 2rem;
 }
+.bottom-nav {
+    background-color: var(--top-nav);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.bottom-nav-links {
+    font-size: 2rem;
+}
 
+
+/* ---------- profile page styles ---------- */
 .profile-stats {
     background-color: #06d6a0;
 }
@@ -148,15 +158,3 @@ body {
     font-size: 1.8rem;
 }
 
-
-.bottom-nav {
-    background-color: var(--top-nav);
-    height: 70px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-}
-
-.bottom-nav-links {
-    font-size: 2rem;
-}
