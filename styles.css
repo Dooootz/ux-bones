@@ -129,9 +129,13 @@ body {
     font-size: 2rem;
 }
 
-
+.profile-stats {
+    background-color: #06d6a0;
+}
+.profile-about {
+    background-color: #06d6a0;
+}
 .profile-content {
-    background-color: var(--input-bg);
     height: 100%;
     padding-top: 70px;
     padding-bottom: 80px;
