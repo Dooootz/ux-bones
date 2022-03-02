@@ -14,18 +14,33 @@
     <!-- simple demo of the creation process - that renders stats to the profile page - once creation is complete then redirect them to their profile page -->
     <!-- store selections in an object & display them in the profile page -->
    
-    <div class="container create-profile-container py-5">
+    <div class="container create-profile-container py-5 d-flex flex-column text-center align-items-center">
 
-        <div class="create-profile-heading d-flex flex-column text-center pb-5">
-            <h2 class="text-center">Welcome to SquadLink</h2>
-            <h5>Create your player profile</h5>
+        <div class="create-profile-heading d-flex flex-column text-center align-items-center">
+            <img class="signin-logo" src="/src/assests/SquadLink-white-transparent.png" alt="">
+            <!-- SVG horizontal rule -->
+            <svg height="100" width="100">
+                <line x1="0" y1="50" x2="100" y2="50" style="stroke:var(--light-grey);stroke-width:5" />
+            </svg>
+            
+
+            <div class="pre-details-brief">
+                <p>Thank you for registering with SquadLink. 
+                    <br> Get started by completing your general details. 
+                    <br> Then select the attributes which best describe your skill level
+                </p>
+            </div>
+            <i class="bi bi-arrow-bar-down"></i>
+            
         </div>
+
+       
 
         
         <!-- user details form -->
-        <div class="user-details">
-            <p class="text-center">Player Details</p>
-            <div class="input-details mb-5 d-flex flex-column justify-content-center align-items-center">
+        <div class="user-details pb-5">
+            <p class="text-center">Enter Personal Details</p>
+            <div class="input-details d-flex flex-column justify-content-center align-items-center">
                 <input class="my-1" type="text" placeholder="Firstname">
                 <input class="my-1" type="text" placeholder="Lastname">
                 <input class="my-1" type="text" placeholder="Email">
@@ -33,6 +48,8 @@
                 <input class="my-1" type="text" placeholder="Steam ID">
             </div>
         </div>
+
+       
 
         <!-- SELECT PLAYSTYLE -->
         <div class="select-rank text-center">
@@ -46,8 +63,8 @@
 
         <!-- SELECT RANK -->
         <div class="select-rank text-center">
-            <p class="py-2">What is your current Rank?</p>
-            <div class="rank-selections pb-5 d-flex flex-wrap justify-content-center">
+            <p>What is your current Rank?</p>
+            <div class="rank-selections d-flex flex-wrap justify-content-center">
                 <input type="button" value="Bronze">
                 <input type="button" value="Silver">
                 <input type="button" value="Gold">
@@ -73,12 +90,13 @@
             </div>
         </div>
 
+        <div class="continue-to-profile">
+            <button onclick="profilePage()">CONTINUE</button>
+        </div>
 
     </div>
 
-    <div class="continue-to-profile pb-5">
-        <button onclick="profilePage()">CONTINUE</button>
-    </div>
+    
 
    
 </body>

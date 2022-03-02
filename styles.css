@@ -66,9 +66,8 @@ body {
 
 
 /* ---------- profile creation page styles ---------- */
-
 .create-profile-container {
-    background-color: var(--apex-red);
+    background-image: linear-gradient(0deg, #DA292A 63%, black);
 }
 .input-details > input {
     background-color: var(--input-bg);
@@ -88,7 +87,11 @@ body {
     border: none;
     border-radius: 30px;
 }
-
+.bi-arrow-bar-down {
+    margin-bottom: 50px;
+    font-size: 5rem;
+    color: var(--light-grey);
+}
 .input-details input::placeholder {
     color: var(--light-grey);
 }
