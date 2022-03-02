@@ -54,10 +54,9 @@ body {
     color: var(--white);
 }
 #register-btn {
-    background-color: var(--caribbean-green);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
     font-weight: 500;
-    text-shadow: 1px 1px#1D1D27;
 }
 .signin-logo {
     height:300px;
