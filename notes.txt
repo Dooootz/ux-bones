@@ -6,9 +6,10 @@ Profile creation & profile page
 rough draft complete
 ---
 
-##TODO
+##TODO - FUNCTIONS
 >can store color palette in variables and create app themes - add dark mode
->add top nav hamburger menu - bootstrap template ?? 
+>add top nav hamburger menu + ANIMATION - bootstrap template ?? 
+>add functionality that simulates chat 
 
 
 #PAGES TODO
