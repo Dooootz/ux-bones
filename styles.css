@@ -139,6 +139,9 @@ body {
 
 
 /* ---------- profile page styles ---------- */
+#profile-body-bg {
+    background-color: var(--top-nav);
+}
 .profile-stats {
     background-color: #06d6a0;
 }
