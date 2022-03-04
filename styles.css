@@ -177,26 +177,24 @@ body {
 
 
 /* ---------- friends page styles ---------- */
-
+#friends-bg{
+    background-color: black;
+}
 .friends {
     height: 100%;
     padding-top: 70px;
     padding-bottom: 80px;
 }
-
-
 .friend-image {
     height: 100px;
     width: 100px;
 }
-
 .friend-image > img{
     height: 80px;
     border-radius: 50%;
     z-index: 2;
 }
-
-.friend-image-frame {
+.friend-online-frame {
     background-image: linear-gradient(45deg, var(--cyber-yellow) 5%, var(--caribbean-green));
     height: 90px;
     width: 90px;
@@ -204,7 +202,22 @@ body {
     z-index: 0;
     position: absolute;
 }
-
+.friend-idle-frame {
+    background-image: linear-gradient(45deg, var(--cyber-yellow) 90%, var(--caribbean-green));
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+}
+.friend-offline-frame {
+    background-image: linear-gradient(45deg, var(--apex-red) 90%, var(--caribbean-green));
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+}
 .friend-chat-links {
     font-size: 2rem;
 }
