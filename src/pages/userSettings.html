@@ -24,7 +24,73 @@
 
     </div>
 
+    <div class="edit-profile d-flex flex-column align-items-center">
+        
+        <!-- profile image -->
+        <div class="edit-profile-img d-flex justify-content-center align-items-center py-3">
+            <img src="/src/assests/profile-picture.jpg" alt="">
+            <div class="edit-profile-frame"></div>
+        </div>
+        <!-- upload new image button -->
+        <input class="upload-img-btn" type="button" value="Upload image">
 
+        <!-- user details form -->
+        <div class="user-details pb-5">
+            <p class="text-center"><b>Edit</b> Personal Details</p>
+            <div class="input-details d-flex flex-column justify-content-center align-items-center">
+                <input class="my-1" type="text" placeholder="Firstname">
+                <input class="my-1" type="text" placeholder="Lastname">
+                <input class="my-1" type="text" placeholder="Email">
+                <input class="my-1" type="text" placeholder="Password">
+                <input class="my-1" type="text" placeholder="Steam ID">
+            </div>
+        </div>
+
+       
+
+        <!-- SELECT PLAYSTYLE -->
+        <div class="select-rank text-center">
+            <p><b>Edit</b> your Playstyle?</p>
+            <div class="rank-selections d-flex flex-wrap justify-content-center">
+                <input type="button" value="Defensive">
+                <input type="button" value="Passive">
+                <input type="button" value="Agressive">
+            </div>
+        </div>
+
+        <!-- SELECT RANK -->
+        <div class="select-rank text-center">
+            <p><b>Edit</b> your current Rank?</p>
+            <div class="rank-selections d-flex flex-wrap justify-content-center">
+                <input type="button" value="Bronze">
+                <input type="button" value="Silver">
+                <input type="button" value="Gold">
+                <input type="button" value="Platinum">
+                <input type="button" value="Diamond">
+                <input type="button" value="Masters">
+            </div>
+        </div>
+
+         <!-- SELECT MAIN LEGEND -->
+         <div class="select-rank text-center">
+            <p><b>Change</b> your Main Legend</p>
+            <div class="rank-selections d-flex flex-wrap justify-content-center">
+                <input type="button" value="Octane">
+                <input type="button" value="Horizon">
+                <input type="button" value="Lifeline">
+                <input type="button" value="Wraith">
+                <input type="button" value="Crypto">
+                <input type="button" value="Gibraltar">
+                <input type="button" value="Wraith">
+                <input type="button" value="Crypto">
+                <input type="button" value="Gibraltar">
+            </div>
+        </div>
+
+        <div class="continue-to-profile">
+            <button onclick="profilePage()">SAVE CHANGES</button>
+        </div>
+    </div>
 
 
    <!-- BOTTOM NAV -->
