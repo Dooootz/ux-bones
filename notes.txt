@@ -13,11 +13,13 @@ rough draft complete
 
 
 #PAGES TODO
-    >notifications page 
-    >friends list page - 
-    >chat page
-    >search page (similar to profile creation page)
-    >profile settings page - edit personal settings 
+    >notifications page - basic
+    >friends list page - basic
+    >chat page - functional 
+    >search page (similar to profile creation page) - critical criteria implementation
+            >> show faked search results based off search filters 
+    >profile settings page - edit personal settings - critical criteria implementation
+            >> allow users to edit personal information & attributes 
 
 
 
