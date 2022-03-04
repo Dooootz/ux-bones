@@ -13,8 +13,11 @@ rough draft complete
 
 
 #PAGES TODO
+    MEDIUM PRIORITY*
     >notifications page - basic
     >friends list page - basic
+
+    HIGH PRIORITY*
     >chat page - functional 
     >search page (similar to profile creation page) - critical criteria implementation
             >> show faked search results based off search filters 
