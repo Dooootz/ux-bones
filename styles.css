@@ -3,6 +3,7 @@
 :root {
     /* solid black + shades */
     --black: black;
+    --black-shade: rgb(32, 32, 32);
     --grey: #adaaaa;
     --grey-shade: #b0b0b0;
     --light-grey: #f3f3f3;
@@ -269,4 +270,51 @@ body {
     border-radius: 10px;
     opacity: 0.7;
     margin-bottom: 30px;
+}
+
+
+
+/* ---------- CHAT page styles ---------- */
+
+#chat-bg {
+    background-color: var(--black);
+}
+.chat-seperator {
+    background-color: var(--black);
+    height: 80px;
+    width: 100%;
+
+}
+.friend-chat-img > img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.friend-chat-box {
+    background-color: #009b72;
+    max-width: 250px;
+    border-radius: 15px 15px 15px 0px;
+}
+.user-chat-box {
+    background-color: #008c96;
+    max-width: 250px;
+    border-radius: 15px 15px 0px 15px;
+}
+
+
+/* ENTER CHAT message */
+.enter-chat-message {
+    height: 50px;
+    width: 100%;
+    background-color: var(--black);
+    position: fixed;
+    bottom: 70px;
+    border-top: 1px solid var(--black-shade);
+}
+#enter-chat-message {
+    background-color: var(--input-bg);
+    border: none;
+    border-radius: 20px;
+    height: 80%;
+    width: 80%;
 }

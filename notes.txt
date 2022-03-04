@@ -14,11 +14,11 @@ rough draft complete
 
 #PAGES TODO
     MEDIUM PRIORITY*
-    >notifications page - basic
-    >friends list page - basic
+    >notifications page - basic 
+    >friends list page - basic => complete
 
     HIGH PRIORITY*
-    >chat page - functional 
+    >chat page - functional => lets do the chat page now 
     >search page (similar to profile creation page) - critical criteria implementation
             >> show faked search results based off search filters 
     >profile settings page - edit personal settings - critical criteria implementation
