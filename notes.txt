@@ -27,3 +27,6 @@ rough draft complete
 
 
 logic should be relatively basic - mock a dummy db & update it to a page using js 
+
+Hard coded all user data as it was an efficient way to get the prototype off the ground
+Will create objects with user data & have that rendered dynamically in the final project
