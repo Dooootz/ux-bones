@@ -19,6 +19,7 @@ Incomplete:
 
 >>Search 
         >> similar to the profile creation process - bit more detailed
+        >> fake search results after searching for team mate  
 
 >>topnav full page dropdown menu 
         >> drop down animation - keep it basic
@@ -29,27 +30,16 @@ Incomplete:
 
 ---
 
-##TODO - FUNCTIONS
+##XTRA FUNCTIONS
 >can store color palette in variables and create app themes - add dark mode
 >add functionality that simulates chat 
->fake search results after searching for team mate  
+
 
 
 #PAGES TODO
     MEDIUM PRIORITY*
     >notifications page - basic 
     >friends list page - basic => complete
-
-    HIGH PRIORITY*
-    >chat page - functional => lets do the chat page now 
-    >search page (similar to profile creation page) - critical criteria implementation
-            >> show faked search results based off search filters 
-    >profile settings page - edit personal settings - critical criteria implementation
-            >> allow users to edit personal information & attributes 
-
-
-
-logic should be relatively basic - mock a dummy db & update it to a page using js 
 
 Hard coded all user data as it was an efficient way to get the prototype off the ground
 Will create objects with user data & have that rendered dynamically in the final project
