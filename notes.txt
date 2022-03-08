@@ -1,15 +1,23 @@
 #Status Update
 
-Sign in page 
-&
-Profile creation & profile page
-rough draft complete
+Completed:
+>sign in 
+>register
+>create account 
+>friends
+>chat
+
+Incomplete: 
+>>Notifications 
+>>Search 
+>>topnav full page dropdown menu 
+
 ---
 
 ##TODO - FUNCTIONS
 >can store color palette in variables and create app themes - add dark mode
->add top nav hamburger menu + ANIMATION - bootstrap template ?? 
 >add functionality that simulates chat 
+>fake search results after searching for team mate  
 
 
 #PAGES TODO
