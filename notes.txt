@@ -12,6 +12,21 @@ Incomplete:
 >>Search 
 >>topnav full page dropdown menu 
 
+-=-= Functionality TO ADD -=-=
+
+>>Notifications 
+        >> Super simple interface - no functionality 
+
+>>Search 
+        >> similar to the profile creation process - bit more detailed
+
+>>topnav full page dropdown menu 
+        >> drop down animation - keep it basic
+
+>>ADD functionality to chat
+        >> on input render the message to the page 
+        >>> add sounds alert & auto reply on delay
+
 ---
 
 ##TODO - FUNCTIONS
