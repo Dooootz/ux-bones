@@ -8,9 +8,8 @@ const menuNav = () => {
 
 const dropItLikeItsHot = () => {
     const dropIt = document.querySelector('.custom-bg')
-    dropIt.style.height = '100vmax';
-    dropIt.style.opacity = '0.4';
-    dropIt.style.filter = 'hue-rotate(160deg)'
+    const videoOverlay = document.querySelector('.bg-video-main')
+    dropIt.style.filter = 'hue-rotate(70deg)'
 
 
 }
@@ -25,6 +24,8 @@ const blur = (mainLogoImg) => {
     mainLogoImg.style.height = '100px'
     console.log('mouse event')
 }
+
+const registerPage = () => window.location.pathname = '/src/pages/index.html'
 
 const createProfilePage = () => window.location.pathname = '/src/pages/createProfile.html'
 

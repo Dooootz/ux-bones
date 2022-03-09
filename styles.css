@@ -58,16 +58,27 @@ body {
 
 /* ======== DROPDOWN MENU ==========  */
 .custom-bg {
-    opacity: 0.1;
-    height: 0;
+    height: 1vh;
     width: 100vw;
-    transition: ease-in-out 5s;
+    transition: ease-in-out 1s;
 }
-
 .custom-bg > video {
     filter: hue-rotate(290deg);
 }
-
+.menu-content {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100vh;
+}
+.menu-navigation-items {
+    list-style: none;
+    margin: 30px;
+}
+.menu-navigation-items > li {
+    margin: 30px;
+}
+.menu-navigation-icons {
+    font-size: 2rem;
+}
 
 
 /* ---------- SIGN IN page styles ---------- */

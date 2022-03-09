@@ -14,7 +14,23 @@
 
     <div class="custom-bg">
         <video autoplay loop muted class="bg-video-main" src="../assests/bg-video.mp4"></video>
-
+        <div class="menu-content d-flex flex-column justify-content-center align-items-center">
+            <h2></h2>
+            <nav class="menu-navigation">
+                <ul class="menu-navigation-items">
+                    <li><i onclick="profilePage()" class="bi menu-navigation-icons bi-person-fill">Profile</i></li>
+                    <li><i onclick="friendsPage()" class="bi menu-navigation-icons bi-people-fill">Friends</i></li>
+                    <li><i onclick="chatPage()" class="bi menu-navigation-icons bi-chat-left-dots-fill">Messages</i></li>
+                    <li><i onclick="notificationsPage()" class="bi menu-navigation-icons bi-bell-fill">Notifications</i></li>
+                    <li><i onclick="settingsPage()" class="bi menu-navigation-icons bi-gear-fill">Settings</i></li>
+                    <li><i onclick="registerPage()" class="bi menu-navigation-icons bi-person-x-fill">Logout</i></li>
+                </ul>
+                <div class="back-to-home d-flex justify-content-center mt-5 pb-5">
+                    <i onclick="profilePage()" class="bi menu-navigation-icons text-center bi-x-circle-fill"></i>
+                </div>
+               
+            </nav>
+        </div>
         
     </div>
 
