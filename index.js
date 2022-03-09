@@ -1,15 +1,23 @@
 const test = () => console.log('test click')
 
+
+
 const menuNav = () => {
     window.location.pathname = '/src/pages/dropMenu.html'
 }
 
-// const blur = () => {
-//     const mainLogoImg = document.querySelector('.signin-logo')
+const dropItLikeItsHot = () => {
+    const dropIt = document.querySelector('.custom-bg')
+    dropIt.style.height = '100vmax';
+    dropIt.style.opacity = '0.4';
+    dropIt.style.filter = 'hue-rotate(160deg)'
 
-//     mainLogoImg.onmouseover
-//     console.log('mouse event')
-// }
+
+}
+
+
+
+
 
 const mainLogoImg = document.querySelector('.signin-logo')
 

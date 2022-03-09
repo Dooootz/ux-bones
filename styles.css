@@ -57,10 +57,15 @@ body {
 }
 
 /* ======== DROPDOWN MENU ==========  */
-#notty {
-    background-image: linear-gradient(180deg, rgb(218, 41, 42) 83%, black);
-    height: 100%;
-    width: 100%;
+.custom-bg {
+    opacity: 0.1;
+    height: 0;
+    width: 100vw;
+    transition: ease-in-out 5s;
+}
+
+.custom-bg > video {
+    filter: hue-rotate(290deg);
 }
 
 
