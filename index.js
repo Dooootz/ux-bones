@@ -4,6 +4,20 @@ const menuNav = () => {
     window.location.pathname = '/src/pages/dropMenu.html'
 }
 
+// const blur = () => {
+//     const mainLogoImg = document.querySelector('.signin-logo')
+
+//     mainLogoImg.onmouseover
+//     console.log('mouse event')
+// }
+
+const mainLogoImg = document.querySelector('.signin-logo')
+
+const blur = (mainLogoImg) => {
+    mainLogoImg.style.height = '100px'
+    console.log('mouse event')
+}
+
 const createProfilePage = () => window.location.pathname = '/src/pages/createProfile.html'
 
 const profilePage = () => window.location.pathname = '/src/pages/profile.html'
