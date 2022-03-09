@@ -15,9 +15,6 @@ const dropItLikeItsHot = () => {
 }
 
 
-
-
-
 const mainLogoImg = document.querySelector('.signin-logo')
 
 const blur = (mainLogoImg) => {
