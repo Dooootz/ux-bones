@@ -56,8 +56,8 @@ body {
 }
 
 /* ======== DROPDOWN MENU ==========  */
-.custom-drop-menu {
-    background-color: #008c96;
+#notty {
+    background-image: linear-gradient(180deg, #DA292A 83%, black);
     height: 100%;
     width: 100%;
 }
