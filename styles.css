@@ -25,7 +25,7 @@
 }
 
 body {
-    background-color: var(--apex-red);
+    background-color: var(--black);
     color: var(--white);
     height: 100%;
 }
@@ -37,7 +37,8 @@ body {
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 50;
+    z-index: 5;
+    transition: 1s;
 }
 .top-nav > .bi {
     font-size: 2rem;
@@ -53,6 +54,15 @@ body {
 .bottom-nav-links {
     font-size: 2rem;
 }
+
+/* ======== DROPDOWN MENU ==========  */
+.custom-drop-menu {
+    background-color: #008c96;
+    height: 100%;
+    width: 100%;
+}
+
+
 
 /* ---------- SIGN IN page styles ---------- */
 

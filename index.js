@@ -1,5 +1,10 @@
 const test = () => console.log('test click')
 
+const menuNav = () => {
+    window.location.pathname = '/src/pages/dropMenu.html'
+
+}
+
 const createProfilePage = () => window.location.pathname = '/src/pages/createProfile.html'
 
 const profilePage = () => window.location.pathname = '/src/pages/profile.html'
