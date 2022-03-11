@@ -1,39 +1,42 @@
-const test = () => console.log('test click')
-
-
+const test = () => console.log("test click");
 
 const menuNav = () => {
-    window.location.pathname = '/src/pages/dropMenu.html'
-}
+  window.location.pathname = "/src/pages/dropMenu.html";
+};
 
 const dropItLikeItsHot = () => {
-    const dropIt = document.querySelector('.custom-bg')
-    const videoOverlay = document.querySelector('.bg-video-main')
-    dropIt.style.filter = 'hue-rotate(70deg)'
+  const dropIt = document.querySelector(".custom-bg");
+  const videoOverlay = document.querySelector(".bg-video-main");
+  dropIt.style.filter = "hue-rotate(70deg)";
+};
 
-
-}
-
-
-const mainLogoImg = document.querySelector('.signin-logo')
+const mainLogoImg = document.querySelector(".signin-logo");
 
 const blur = (mainLogoImg) => {
-    mainLogoImg.style.height = '100px'
-    console.log('mouse event')
-}
+  mainLogoImg.style.height = "100px";
+  console.log("mouse event");
+};
 
-const registerPage = () => window.location.pathname = '/src/pages/index.html'
+const registerPage = () => (window.location.pathname = "/src/pages/index.html");
 
-const createProfilePage = () => window.location.pathname = '/src/pages/createProfile.html'
+const searchResultsPage = () =>
+  (window.location.pathname = "/src/pages/searchResults.html");
 
-const profilePage = () => window.location.pathname = '/src/pages/profile.html'
+const createProfilePage = () =>
+  (window.location.pathname = "/src/pages/createProfile.html");
 
-const notificationsPage = () => window.location.pathname = '/src/pages/notifications.html'
+const profilePage = () =>
+  (window.location.pathname = "/src/pages/profile.html");
 
-const chatPage = () => window.location.pathname = '/src/pages/chat.html'
+const notificationsPage = () =>
+  (window.location.pathname = "/src/pages/notifications.html");
 
-const searchPage = () => window.location.pathname = '/src/pages/search.html'
+const chatPage = () => (window.location.pathname = "/src/pages/chat.html");
 
-const friendsPage = () => window.location.pathname = '/src/pages/friends.html'
+const searchPage = () => (window.location.pathname = "/src/pages/search.html");
 
-const settings = () => window.location.pathname = '/src/pages/userSettings.html'
+const friendsPage = () =>
+  (window.location.pathname = "/src/pages/friends.html");
+
+const settings = () =>
+  (window.location.pathname = "/src/pages/userSettings.html");
